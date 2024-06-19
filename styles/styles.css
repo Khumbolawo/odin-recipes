@@ -11,7 +11,7 @@ html {
   font-family: inherit;
 }
 
-/* home page */
+/* HOME PAGE */
 #main,
 #recipe-main {
   max-width: 600px;
@@ -19,8 +19,19 @@ html {
   padding: 10px;
 }
 
-/* recipe page */
+/* RECIPE PAGE */
 
+.container {
+  position: relative;
+}
+
+/* navigation */
+.nav-card {
+  position: absolute;
+  left: -220px;
+  width: 180px;
+  height: 200px;
+}
 /* recipe image */
 .img-box {
   width: 600px;
